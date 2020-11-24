@@ -1,0 +1,34 @@
+h1{
+    padding-top: 30px;
+    color:crimson;
+    text-shadow: 2px 2px darkgray;
+    text-align: center;
+      
+  }
+  
+    img{
+        height: 280px;
+    }
+    .card-body{
+        background-color: whitesmoke;
+        text-align: center;
+        color:fuchsia;
+    }
+    
+    .card{
+        padding-top: 0px;
+        display: inline-flex;
+        background-color: white;
+        transition: transform .2s;
+        margin: 33px;
+        margin-left: 43px;
+    }
+    .card:hover {
+        transform: scale(1.1) 
+      }
+  
+    #hpara{
+        margin-top:20px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }

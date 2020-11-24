@@ -1,0 +1,25 @@
+nav{
+  display: flex;
+  position: fixed;
+  top:0;
+  width: 100%;
+  background-color:slategray;
+  overflow: auto;
+  height: auto;
+}
+.left-links{
+  flex:1 1 200px;
+}
+.links {
+  display: inline-block;
+  text-align: center;
+  padding: 14px;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: bolder;
+}
+
+.selected{
+  border-bottom: 2px solid purple;
+}
